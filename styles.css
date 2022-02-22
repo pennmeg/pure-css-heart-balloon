@@ -1,0 +1,50 @@
+body {
+  width: 100%;
+  height: 100vw;
+  background-color: #fcc7cf;
+}
+
+/* Colors */
+.pink {
+  background-color: #e36b89;
+}
+
+.dark--pink {
+  background-color: #d85678;
+}
+
+.light--pink {
+  background-color: #fde3e6;
+}
+
+#balloon--wrapper {
+  margin: 0 auto;
+  position: relative;
+  height: 500px;
+  width: 300px;
+}
+
+#balloon--circle--1,
+#balloon--circle--2 {
+  height: 100px;
+  width: 100px;
+}
+
+#balloon--circle--1 {
+  border-radius: 80% 80% 80% 0;
+  transform: rotate(330deg);
+}
+
+#balloon--circle--2 {
+  border-radius: 80% 80% 80% 0;
+  transform: rotate(300deg);
+}
+
+#balloon--bottom {
+  position: absolute;
+  left: 50px;
+  top: 70px;
+  height: 100px;
+  width: 100px;
+  transform: rotate(45deg);
+}
